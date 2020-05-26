@@ -29,8 +29,4 @@ public class UserController extends BasicController {
         return success("ssj");
     }
 
-    @GetMapping("/testgit1")
-    public  Response testGit1(){
-        return success("ypc");
-    }
 }
